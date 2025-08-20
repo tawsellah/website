@@ -13,6 +13,7 @@ import {
 import { Menu, Rocket } from "lucide-react";
 
 const navLinks = [
+  { href: "/", label: "الرئيسية" },
   { href: "/#features", label: "الميزات" },
   { href: "/about", label: "من نحن" },
   { href: "/contact", label: "تواصل معنا" },
