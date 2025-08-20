@@ -5,8 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Eye, Target, Heart, Users, Shield, Award } from "lucide-react";
-import Image from "next/image";
+import { Eye, Target, Heart, Users, Shield, Award, Globe, Car } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -31,25 +30,19 @@ export default function AboutPage() {
               نتطلع إلى مستقبل تكون فيه المدن أكثر اتصالاً وأقل ازدحامًا. رؤيتنا هي أن نكون جزءًا من الحل، من خلال توفير شبكة نقل ذكية ومستدامة تخدم الملايين، وتقلل من الاعتماد على السيارات الخاصة وتجعل الحياة اليومية أبسط.
             </p>
           </div>
-          <div className="relative aspect-video">
-            <Image
-              src="https://placehold.co/600x338.png"
-              alt="رؤية مستقبلية للمدينة"
-              fill
-              className="rounded-xl shadow-lg object-cover"
-              data-ai-hint="futuristic city"
+          <div className="relative aspect-video flex items-center justify-center bg-card rounded-xl shadow-lg">
+            <Globe
+              className="h-24 w-24 text-primary"
+              strokeWidth={1.5}
             />
           </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-16 items-center mt-24">
-          <div className="relative aspect-video order-last md:order-first">
-            <Image
-              src="https://placehold.co/600x338.png"
-              alt="سائق توصيلة"
-              fill
-              className="rounded-xl shadow-lg object-cover"
-              data-ai-hint="driver partner"
+          <div className="relative aspect-video order-last md:order-first flex items-center justify-center bg-card rounded-xl shadow-lg">
+             <Car
+              className="h-24 w-24 text-primary"
+              strokeWidth={1.5}
             />
           </div>
           <div>

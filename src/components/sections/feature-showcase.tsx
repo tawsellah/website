@@ -4,7 +4,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Zap, Map, ShieldCheck, CreditCard } from "lucide-react";
+import { Zap, Map, ShieldCheck, CreditCard, Smartphone, MapPinned, UserCheck, Wallet } from "lucide-react";
 import Image from "next/image";
 
 const features = [
@@ -13,32 +13,28 @@ const features = [
     title: "حجز سريع وسهل",
     description:
       "اطلب رحلتك بلمسة زر. تطبيقنا يحدد موقعك تلقائيًا ويوصلك بأقرب سائق في دقائق.",
-    image: "https://placehold.co/600x338.png",
-    imageHint: "fast booking",
+    showcaseIcon: <Smartphone className="h-24 w-24 text-primary" strokeWidth={1.5} />,
   },
   {
     icon: <Map className="h-8 w-8 text-white" />,
     title: "تتبع مباشر للرحلة",
     description:
       "شاهد سائقك وهو يقترب على الخريطة في الوقت الفعلي. لا مزيد من الانتظار في المجهول.",
-    image: "https://placehold.co/600x338.png",
-    imageHint: "live tracking map",
+    showcaseIcon: <MapPinned className="h-24 w-24 text-primary" strokeWidth={1.5} />,
   },
   {
     icon: <ShieldCheck className="h-8 w-8 text-white" />,
     title: "الأمان أولويتنا",
     description:
       "جميع سائقينا معتمدون وتتم مراجعة بياناتهم. يمكنك مشاركة تفاصيل رحلتك مع الأصدقاء والعائلة.",
-    image: "https://placehold.co/600x338.png",
-    imageHint: "safety security",
+    showcaseIcon: <UserCheck className="h-24 w-24 text-primary" strokeWidth={1.5} />,
   },
   {
     icon: <CreditCard className="h-8 w-8 text-white" />,
     title: "أسعار شفافة",
     description:
       "اعرف تكلفة رحلتك مقدمًا قبل تأكيد الحجز. لا مفاجآت، وادفع نقدًا أو بالبطاقة بسهولة.",
-    image: "https://placehold.co/600x338.png",
-    imageHint: "transparent pricing",
+    showcaseIcon: <Wallet className="h-24 w-24 text-primary" strokeWidth={1.5} />,
   },
 ];
 
@@ -68,14 +64,8 @@ export function FeatureShowcase() {
                 <p className="text-white/80 mb-4">
                   {feature.description}
                 </p>
-                <div className="aspect-video relative">
-                  <Image
-                    src={feature.image}
-                    alt={feature.title}
-                    fill
-                    className="rounded-lg object-cover"
-                    data-ai-hint={feature.imageHint}
-                  />
+                <div className="aspect-video relative flex items-center justify-center bg-card rounded-lg">
+                  {feature.showcaseIcon}
                 </div>
               </CardContent>
             </Card>
