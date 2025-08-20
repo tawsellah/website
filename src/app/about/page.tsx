@@ -5,7 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Eye, Target, Heart, Users, Lightbulb, Package } from "lucide-react";
+import { Eye, Target, Heart, Users, Shield, Award } from "lucide-react";
 import Image from "next/image";
 
 export default function AboutPage() {
@@ -14,12 +14,10 @@ export default function AboutPage() {
       <div className="container py-20 md:py-32">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold font-headline">
-            قصتنا ووعدنا
+            قصتنا: رحلة توصيلة
           </h1>
           <p className="mt-6 text-xl text-muted-foreground">
-            وُلد AppIntro من فكرة بسيطة: يجب أن تكون التكنولوجيا عامل تمكين، لا
-            عائق. نحن ملتزمون بتقديم حلول ليست قوية فحسب، بل ممتعة في
-            الاستخدام أيضًا.
+            بدأت "توصيلة" من فكرة بسيطة: جعل التنقل في مدننا أسهل، أسرع، وأكثر أمانًا للجميع. نحن نؤمن بأن التكنولوجيا يمكنها تحويل طريقة تنقلنا، وربط الناس بأماكنهم وأحبائهم بكفاءة وموثوقية.
           </p>
         </div>
 
@@ -30,20 +28,16 @@ export default function AboutPage() {
               رؤيتنا
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              نتصور مستقبلاً يمكن فيه لأي شخص لديه فكرة أن يحييها، بغض النظر
-              عن خبرته التقنية. هدفنا هو إضفاء الطابع الديمقراطي على الإبداع
-              وتمكين جيل جديد من المبتكرين. نسعى جاهدين لنكون الشرارة التي
-              تشعل الإبداع والمحرك الذي يدفع التقدم، وبناء مجتمع عالمي مترابط
-              بشغف وهدف مشترك.
+              نتطلع إلى مستقبل تكون فيه المدن أكثر اتصالاً وأقل ازدحامًا. رؤيتنا هي أن نكون جزءًا من الحل، من خلال توفير شبكة نقل ذكية ومستدامة تخدم الملايين، وتقلل من الاعتماد على السيارات الخاصة وتجعل الحياة اليومية أبسط.
             </p>
           </div>
           <div className="relative aspect-video">
             <Image
               src="https://placehold.co/600x338.png"
-              alt="الرؤية"
+              alt="رؤية مستقبلية للمدينة"
               fill
               className="rounded-xl shadow-lg object-cover"
-              data-ai-hint="future landscape"
+              data-ai-hint="futuristic city"
             />
           </div>
         </div>
@@ -52,10 +46,10 @@ export default function AboutPage() {
           <div className="relative aspect-video order-last md:order-first">
             <Image
               src="https://placehold.co/600x338.png"
-              alt="المهمة"
+              alt="سائق توصيلة"
               fill
               className="rounded-xl shadow-lg object-cover"
-              data-ai-hint="team collaboration"
+              data-ai-hint="driver partner"
             />
           </div>
           <div>
@@ -64,10 +58,7 @@ export default function AboutPage() {
               مهمتنا
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              مهمتنا هي تقديم منصة سهلة الاستخدام وموثوقة بشكل استثنائي تزيل
-              العقبات من العملية الإبداعية. نحن ملتزمون بالتحسين المستمر،
-              مدفوعين بتعليقات المستخدمين وسعي لا هوادة فيه لتحقيق التميز،
-              مما يضمن تطور أدواتنا مع احتياجات مجتمعنا.
+              مهمتنا هي توفير منصة نقل آمنة وموثوقة وبأسعار معقولة. نحن ملتزمون بتمكين شركائنا السائقين من خلال توفير فرص اقتصادية مرنة، وتقديم أفضل تجربة لعملائنا في كل رحلة.
             </p>
           </div>
         </div>
@@ -79,41 +70,40 @@ export default function AboutPage() {
               قيمنا الأساسية
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              هذه المبادئ هي أساس ثقافتنا وتوجه كل قرار نتخذه.
+              هذه المبادئ هي البوصلة التي توجه كل قراراتنا وأعمالنا في "توصيلة".
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <Card className="bg-[#fc46aa] text-white">
               <CardHeader>
                 <Users className="h-8 w-8 text-white mb-2" />
-                <CardTitle>المستخدم أولاً</CardTitle>
+                <CardTitle>العميل أولاً</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-white/80">
-                  مستخدمونا في قلب كل شيء. نحن نستمع ونتعلم ونبني من أجلهم.
+                  احتياجات عملائنا وراحتهم هي أولويتنا القصوى في كل ما نقوم به.
                 </CardDescription>
               </CardContent>
             </Card>
             <Card className="bg-[#fc46aa] text-white">
               <CardHeader>
-                <Lightbulb className="h-8 w-8 text-white mb-2" />
-                <CardTitle>ابتكر بجرأة</CardTitle>
+                <Shield className="h-8 w-8 text-white mb-2" />
+                <CardTitle>الأمان فوق كل شيء</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-white/80">
-                  نحن نتبنى التحديات، ونتساءل عن الوضع الراهن، ولا نخشى شق
-                  طرق جديدة.
+                  نحن ملتزمون بتطبيق أعلى معايير الأمان لضمان رحلات آمنة لعملائنا وشركائنا.
                 </CardDescription>
               </CardContent>
             </Card>
             <Card className="bg-[#fc46aa] text-white">
               <CardHeader>
-                <Package className="h-8 w-8 text-white mb-2" />
-                <CardTitle>قدم الجودة</CardTitle>
+                <Award className="h-8 w-8 text-white mb-2" />
+                <CardTitle>الجودة والابتكار</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-white/80">
-                  نحن نلتزم بأعلى معايير الحرفية والموثوقية.
+                  نسعى باستمرار لتحسين خدماتنا وابتكار حلول جديدة لتلبية احتياجاتكم المتغيرة.
                 </CardDescription>
               </CardContent>
             </Card>

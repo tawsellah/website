@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="border-t">
+    <footer className="border-t bg-white">
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col gap-4 items-start">
@@ -15,12 +15,12 @@ export function Footer() {
               <span>توصيلة</span>
             </Link>
             <p className="text-muted-foreground">
-              مستقبل التطبيقات هنا. انضم إلينا في رحلتنا.
+              مشوارك صار أسهل. انضم لمجتمع توصيلة اليوم.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:col-span-2">
             <div className="flex flex-col gap-3">
-              <h4 className="font-bold">المنتج</h4>
+              <h4 className="font-bold">توصيلة</h4>
               <Link
                 href="/#features"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -41,24 +41,18 @@ export function Footer() {
               </Link>
             </div>
             <div className="flex flex-col gap-3">
-              <h4 className="font-bold">الشركة</h4>
+              <h4 className="font-bold">الشراكة</h4>
               <Link
-                href="/about"
+                href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                رؤيتنا
+                انضم كسائق
               </Link>
               <Link
-                href="/about"
+                href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                مهمتنا
-              </Link>
-              <Link
-                href="/about"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                قيمنا
+                أسطول الشركات
               </Link>
             </div>
             <div className="flex flex-col gap-3">
@@ -73,13 +67,13 @@ export function Footer() {
                 href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                GitHub
+                فيسبوك
               </Link>
               <Link
                 href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                LinkedIn
+                انستغرام
               </Link>
             </div>
           </div>

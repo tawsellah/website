@@ -6,9 +6,9 @@ import { Footer } from "@/components/layout/footer";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "توصيلة | أهلاً بك في المستقبل",
+  title: "توصيلة | مشوارك صار أسهل",
   description:
-    "اكتشف تطبيقنا الثوري. تعرف على رؤيتنا ورسالتنا والميزات الرائعة التي نقدمها.",
+    "تطبيق توصيلة لتوصيل الركاب. احجز رحلتك القادمة بسهولة وأمان. مشاوير سريعة بأسعار معقولة.",
 };
 
 export default function RootLayout({

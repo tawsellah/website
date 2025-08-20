@@ -7,12 +7,10 @@ export function Hero() {
     <section className="container grid lg:grid-cols-2 gap-12 items-center py-20 md:py-32">
       <div className="flex flex-col gap-6 items-start">
         <h1 className="text-4xl md:text-6xl font-bold font-headline leading-tight">
-          أهلاً بك في <span className="text-primary">توصيلة</span>، حيث تنطلق
-          الأفكار.
+          <span className="text-primary">توصيلة</span>، مشوارك يبدأ من هنا.
         </h1>
         <p className="text-lg text-muted-foreground">
-          اكتشف تجربة سلسة مصممة لإحياء رؤيتك. توصيلة هو أكثر من مجرد تطبيق؛
-          إنه شريك في رحلتك الإبداعية.
+          هل تحتاج إلى توصيلة سريعة وموثوقة؟ تطبيق توصيلة يوصلك إلى وجهتك بأمان وراحة. حمّل التطبيق الآن وابدأ رحلتك الأولى.
         </p>
         <div className="flex flex-wrap gap-4">
           <Button size="lg" asChild>
@@ -44,7 +42,7 @@ export function Hero() {
       <div className="relative aspect-square">
         <Image
           src="https://res.cloudinary.com/dorbgzcrz/image/upload/v1755657554/qqhtdzxhpehier64uxft.png"
-          alt="لقطة شاشة للتطبيق"
+          alt="لقطة شاشة لتطبيق توصيلة"
           fill
           className="rounded-2xl shadow-2xl object-cover"
           data-ai-hint="app mockup"

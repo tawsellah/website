@@ -4,41 +4,41 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Zap, BarChart, ShieldCheck, UserCheck } from "lucide-react";
+import { Zap, Map, ShieldCheck, CreditCard } from "lucide-react";
 import Image from "next/image";
 
 const features = [
   {
     icon: <Zap className="h-8 w-8 text-white" />,
-    title: "سرعة فائقة",
+    title: "حجز سريع وسهل",
     description:
-      "استمتع بسرعة واستجابة لا مثيل لهما. تم تحسين تطبيقنا للأداء على أي جهاز.",
+      "اطلب رحلتك بلمسة زر. تطبيقنا يحدد موقعك تلقائيًا ويوصلك بأقرب سائق في دقائق.",
     image: "https://placehold.co/600x338.png",
-    imageHint: "speed dashboard",
+    imageHint: "fast booking",
   },
   {
-    icon: <BarChart className="h-8 w-8 text-white" />,
-    title: "تحليلات ثاقبة",
+    icon: <Map className="h-8 w-8 text-white" />,
+    title: "تتبع مباشر للرحلة",
     description:
-      "احصل على رؤى قيمة من خلال لوحة التحكم التحليلية القوية الخاصة بنا. تتبع تقدمك واتخذ قرارات تستند إلى البيانات.",
+      "شاهد سائقك وهو يقترب على الخريطة في الوقت الفعلي. لا مزيد من الانتظار في المجهول.",
     image: "https://placehold.co/600x338.png",
-    imageHint: "analytics chart",
+    imageHint: "live tracking map",
   },
   {
     icon: <ShieldCheck className="h-8 w-8 text-white" />,
-    title: "آمن بالتصميم",
+    title: "الأمان أولويتنا",
     description:
-      "بياناتك آمنة معنا. نحن نستخدم أحدث الإجراءات الأمنية لحماية معلوماتك.",
+      "جميع سائقينا معتمدون وتتم مراجعة بياناتهم. يمكنك مشاركة تفاصيل رحلتك مع الأصدقاء والعائلة.",
     image: "https://placehold.co/600x338.png",
-    imageHint: "security shield",
+    imageHint: "safety security",
   },
   {
-    icon: <UserCheck className="h-8 w-8 text-white" />,
-    title: "سهل الاستخدام",
+    icon: <CreditCard className="h-8 w-8 text-white" />,
+    title: "أسعار شفافة",
     description:
-      "واجهة نظيفة وبديهية تجعل تطبيقنا ممتعًا للاستخدام للجميع، من المبتدئين إلى الخبراء.",
+      "اعرف تكلفة رحلتك مقدمًا قبل تأكيد الحجز. لا مفاجآت، وادفع نقدًا أو بالبطاقة بسهولة.",
     image: "https://placehold.co/600x338.png",
-    imageHint: "user interface",
+    imageHint: "transparent pricing",
   },
 ];
 
@@ -48,11 +48,10 @@ export function FeatureShowcase() {
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">
-            الميزات الرئيسية
+            لماذا تختار توصيلة؟
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            كل ما تحتاجه للنجاح. تطبيقنا مليء بالميزات القوية لمساعدتك على تحقيق
-            أهدافك.
+            نحن نقدم لك أكثر من مجرد رحلة. نمنحك تجربة تنقل موثوقة ومريحة، مصممة خصيصًا لك.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
