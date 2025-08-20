@@ -4,6 +4,12 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { Menu, Rocket } from "lucide-react";
 
 const navLinks = [
@@ -44,13 +50,45 @@ export function Header() {
                     </Link>
                   ))}
                 </nav>
-                <Button className="w-full">ابدأ الآن</Button>
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <Button className="w-full">ابدأ الآن</Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent className="w-56">
+                    <DropdownMenuItem>
+                      <Link href="#" className="w-full text-right">
+                        كعميل
+                      </Link>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem>
+                      <Link href="#" className="w-full text-right">
+                        كسائق
+                      </Link>
+                    </DropdownMenuItem>
+                  </DropdownMenuContent>
+                </DropdownMenu>
               </div>
             </SheetContent>
           </Sheet>
         </div>
         <div className="hidden md:flex items-center gap-4">
-          <Button>ابدأ الآن</Button>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button>ابدأ الآن</Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="w-56">
+              <DropdownMenuItem>
+                <Link href="#" className="w-full text-right">
+                  كعميل
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link href="#" className="w-full text-right">
+                  كسائق
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map((link) => (
