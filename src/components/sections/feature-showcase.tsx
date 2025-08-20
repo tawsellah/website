@@ -10,33 +10,33 @@ import Image from "next/image";
 const features = [
   {
     icon: <Zap className="h-8 w-8 text-primary" />,
-    title: "Blazing Fast",
+    title: "سرعة فائقة",
     description:
-      "Experience unparalleled speed and responsiveness. Our app is optimized for performance on any device.",
+      "استمتع بسرعة واستجابة لا مثيل لهما. تم تحسين تطبيقنا للأداء على أي جهاز.",
     image: "https://placehold.co/600x400.png",
     imageHint: "speed dashboard",
   },
   {
     icon: <BarChart className="h-8 w-8 text-primary" />,
-    title: "Insightful Analytics",
+    title: "تحليلات ثاقبة",
     description:
-      "Gain valuable insights with our powerful analytics dashboard. Track your progress and make data-driven decisions.",
+      "احصل على رؤى قيمة من خلال لوحة التحكم التحليلية القوية الخاصة بنا. تتبع تقدمك واتخذ قرارات تستند إلى البيانات.",
     image: "https://placehold.co/600x400.png",
     imageHint: "analytics chart",
   },
   {
     icon: <ShieldCheck className="h-8 w-8 text-primary" />,
-    title: "Secure by Design",
+    title: "آمن بالتصميم",
     description:
-      "Your data is safe with us. We use state-of-the-art security measures to protect your information.",
+      "بياناتك آمنة معنا. نحن نستخدم أحدث الإجراءات الأمنية لحماية معلوماتك.",
     image: "https://placehold.co/600x400.png",
     imageHint: "security shield",
   },
   {
     icon: <UserCheck className="h-8 w-8 text-primary" />,
-    title: "Easy to Use",
+    title: "سهل الاستخدام",
     description:
-      "A clean and intuitive interface that makes our app a joy to use for everyone, from beginners to experts.",
+      "واجهة نظيفة وبديهية تجعل تطبيقنا ممتعًا للاستخدام للجميع، من المبتدئين إلى الخبراء.",
     image: "https://placehold.co/600x400.png",
     imageHint: "user interface",
   },
@@ -48,11 +48,11 @@ export function FeatureShowcase() {
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">
-            Key Features
+            الميزات الرئيسية
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Everything you need to succeed. Our app is packed with powerful
-            features to help you achieve your goals.
+            كل ما تحتاجه للنجاح. تطبيقنا مليء بالميزات القوية لمساعدتك على تحقيق
+            أهدافك.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">

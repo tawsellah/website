@@ -20,18 +20,18 @@ import { Loader2 } from "lucide-react";
 
 const formSchema = z.object({
   name: z.string().min(2, {
-    message: "Name must be at least 2 characters.",
+    message: "يجب أن يتكون الاسم من حرفين على الأقل.",
   }),
   email: z.string().email({
-    message: "Please enter a valid email address.",
+    message: "يرجى إدخال عنوان بريد إلكتروني صالح.",
   }),
   message: z
     .string()
     .min(10, {
-      message: "Message must be at least 10 characters.",
+      message: "يجب أن تتكون الرسالة من 10 أحرف على الأقل.",
     })
     .max(500, {
-      message: "Message cannot be longer than 500 characters.",
+      message: "لا يمكن أن يتجاوز طول الرسالة 500 حرف.",
     }),
 });
 
@@ -57,8 +57,8 @@ export function ContactForm() {
     console.log(values);
 
     toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. We'll get back to you soon.",
+      title: "تم إرسال الرسالة!",
+      description: "شكرًا لتواصلك معنا. سنرد عليك قريبًا.",
     });
 
     form.reset();
@@ -72,9 +72,9 @@ export function ContactForm() {
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Name</FormLabel>
+              <FormLabel>الاسم</FormLabel>
               <FormControl>
-                <Input placeholder="Your Name" {...field} />
+                <Input placeholder="اسمك" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -85,7 +85,7 @@ export function ContactForm() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel>البريد الإلكتروني</FormLabel>
               <FormControl>
                 <Input placeholder="your.email@example.com" {...field} />
               </FormControl>
@@ -98,10 +98,10 @@ export function ContactForm() {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Message</FormLabel>
+              <FormLabel>الرسالة</FormLabel>
               <FormControl>
                 <Textarea
-                  placeholder="Tell us how we can help"
+                  placeholder="أخبرنا كيف يمكننا المساعدة"
                   className="resize-none"
                   rows={6}
                   {...field}
@@ -112,8 +112,8 @@ export function ContactForm() {
           )}
         />
         <Button type="submit" className="w-full" disabled={isLoading}>
-          {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-          {isLoading ? "Sending..." : "Send Message"}
+          {isLoading && <Loader2 className="ml-2 h-4 w-4 animate-spin" />}
+          {isLoading ? "جار الإرسال..." : "إرسال الرسالة"}
         </Button>
       </form>
     </Form>

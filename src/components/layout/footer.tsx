@@ -15,59 +15,59 @@ export function Footer() {
               <span>AppIntro</span>
             </Link>
             <p className="text-muted-foreground">
-              The future of apps is here. Join us on our journey.
+              مستقبل التطبيقات هنا. انضم إلينا في رحلتنا.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:col-span-2">
             <div className="flex flex-col gap-3">
-              <h4 className="font-bold">Product</h4>
+              <h4 className="font-bold">المنتج</h4>
               <Link
                 href="/#features"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Features
+                الميزات
               </Link>
               <Link
                 href="/#about"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                About Us
+                من نحن
               </Link>
               <Link
                 href="/#contact"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Contact
+                تواصل معنا
               </Link>
             </div>
             <div className="flex flex-col gap-3">
-              <h4 className="font-bold">Company</h4>
+              <h4 className="font-bold">الشركة</h4>
               <Link
                 href="/about"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Our Vision
+                رؤيتنا
               </Link>
               <Link
                 href="/about"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Our Mission
+                مهمتنا
               </Link>
               <Link
                 href="/about"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Our Values
+                قيمنا
               </Link>
             </div>
             <div className="flex flex-col gap-3">
-              <h4 className="font-bold">Social</h4>
+              <h4 className="font-bold">التواصل الاجتماعي</h4>
               <Link
                 href="#"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
-                Twitter
+                تويتر
               </Link>
               <Link
                 href="#"
@@ -86,7 +86,7 @@ export function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} AppIntro. All rights reserved.
+            &copy; {new Date().getFullYear()} AppIntro. جميع الحقوق محفوظة.
           </p>
           <div className="flex items-center gap-4">
             <Link

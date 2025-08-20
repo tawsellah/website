@@ -14,18 +14,18 @@ export function Contact() {
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">
-            Get in Touch
+            تواصل معنا
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Have a question or want to work with us? We'd love to hear from you.
+            هل لديك سؤال أو ترغب في العمل معنا؟ يسعدنا أن نسمع منك.
           </p>
         </div>
         <div className="grid lg:grid-cols-2 gap-12">
           <Card>
             <CardHeader>
-              <CardTitle>Send us a message</CardTitle>
+              <CardTitle>أرسل لنا رسالة</CardTitle>
               <CardDescription>
-                Fill out the form and we'll get back to you as soon as possible.
+                املأ النموذج وسنعاود الاتصال بك في أقرب وقت ممكن.
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -38,9 +38,9 @@ export function Contact() {
                 <Mail className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="text-lg font-bold">Email</h3>
+                <h3 className="text-lg font-bold">البريد الإلكتروني</h3>
                 <p className="text-muted-foreground">
-                  Don't hesitate to reach out via email.
+                  لا تتردد في التواصل عبر البريد الإلكتروني.
                 </p>
                 <a
                   href="mailto:contact@appintro.com"
@@ -55,9 +55,9 @@ export function Contact() {
                 <Phone className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="text-lg font-bold">Phone</h3>
+                <h3 className="text-lg font-bold">الهاتف</h3>
                 <p className="text-muted-foreground">
-                  Give us a call for immediate assistance.
+                  اتصل بنا للحصول على مساعدة فورية.
                 </p>
                 <a
                   href="tel:+1234567890"
@@ -72,12 +72,12 @@ export function Contact() {
                 <MapPin className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="text-lg font-bold">Office</h3>
+                <h3 className="text-lg font-bold">المكتب</h3>
                 <p className="text-muted-foreground">
-                  123 Innovation Drive, Tech City, 12345
+                  123 شارع الابتكار، مدينة التكنولوجيا، 12345
                 </p>
                 <a href="#" className="text-primary font-medium hover:underline">
-                  Get Directions
+                  الحصول على الاتجاهات
                 </a>
               </div>
             </div>

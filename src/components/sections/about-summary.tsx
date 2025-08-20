@@ -6,21 +6,21 @@ import Link from "next/link";
 const aboutItems = [
   {
     icon: <Eye className="h-8 w-8 text-primary" />,
-    title: "Our Vision",
+    title: "رؤيتنا",
     description:
-      "To empower creators and innovators by providing tools that are both powerful and accessible, fostering a world where great ideas can thrive.",
+      "تمكين المبدعين والمبتكرين من خلال توفير أدوات قوية وسهلة الوصول، وتعزيز عالم يمكن أن تزدهر فيه الأفكار العظيمة.",
   },
   {
     icon: <Target className="h-8 w-8 text-primary" />,
-    title: "Our Mission",
+    title: "مهمتنا",
     description:
-      "To build an intuitive, reliable, and inspiring platform that simplifies complexity and unlocks our users' full potential.",
+      "بناء منصة بديهية وموثوقة وملهمة تبسط التعقيد وتطلق العنان للإمكانات الكاملة لمستخدمينا.",
   },
   {
     icon: <Heart className="h-8 w-8 text-primary" />,
-    title: "Our Values",
+    title: "قيمنا",
     description:
-      "We are guided by user-centricity, a passion for innovation, and a commitment to integrity in everything we do.",
+      "نحن نسترشد بالتركيز على المستخدم، وشغف الابتكار، والالتزام بالنزاهة في كل ما نقوم به.",
   },
 ];
 
@@ -30,11 +30,11 @@ export function AboutSummary() {
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">
-            Who We Are
+            من نحن
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            We are a team of passionate developers, designers, and thinkers
-            united by a common goal.
+            نحن فريق من المطورين والمصممين والمفكرين الشغوفين الذين يوحدهم هدف
+            مشترك.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
@@ -53,7 +53,7 @@ export function AboutSummary() {
         </div>
         <div className="text-center mt-12">
           <Button size="lg" asChild>
-            <Link href="/about">Learn More About Us</Link>
+            <Link href="/about">اعرف المزيد عنا</Link>
           </Button>
         </div>
       </div>

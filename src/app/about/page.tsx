@@ -14,12 +14,12 @@ export default function AboutPage() {
       <div className="container py-20 md:py-32">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold font-headline">
-            Our Story and Our Promise
+            قصتنا ووعدنا
           </h1>
           <p className="mt-6 text-xl text-muted-foreground">
-            AppIntro was born from a simple idea: technology should be an
-            enabler, not a barrier. We are dedicated to crafting solutions that
-            are not only powerful but also a joy to use.
+            وُلد AppIntro من فكرة بسيطة: يجب أن تكون التكنولوجيا عامل تمكين، لا
+            عائق. نحن ملتزمون بتقديم حلول ليست قوية فحسب، بل ممتعة في
+            الاستخدام أيضًا.
           </p>
         </div>
 
@@ -27,21 +27,20 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl font-bold font-headline flex items-center gap-3">
               <Eye className="h-8 w-8 text-primary" />
-              Our Vision
+              رؤيتنا
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              We envision a future where anyone with an idea can bring it to
-              life, regardless of their technical expertise. Our goal is to
-              democratize creation and empower a new generation of innovators.
-              We strive to be the spark that ignites creativity and the engine
-              that powers progress, building a global community connected by
-              shared passion and purpose.
+              نتصور مستقبلاً يمكن فيه لأي شخص لديه فكرة أن يحييها، بغض النظر
+              عن خبرته التقنية. هدفنا هو إضفاء الطابع الديمقراطي على الإبداع
+              وتمكين جيل جديد من المبتكرين. نسعى جاهدين لنكون الشرارة التي
+              تشعل الإبداع والمحرك الذي يدفع التقدم، وبناء مجتمع عالمي مترابط
+              بشغف وهدف مشترك.
             </p>
           </div>
           <div className="relative aspect-video">
             <Image
               src="https://placehold.co/800x450.png"
-              alt="Vision"
+              alt="الرؤية"
               fill
               className="rounded-xl shadow-lg object-cover"
               data-ai-hint="future landscape"
@@ -53,7 +52,7 @@ export default function AboutPage() {
           <div className="relative aspect-video order-last md:order-first">
             <Image
               src="https://placehold.co/800x450.png"
-              alt="Mission"
+              alt="المهمة"
               fill
               className="rounded-xl shadow-lg object-cover"
               data-ai-hint="team collaboration"
@@ -62,14 +61,13 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl font-bold font-headline flex items-center gap-3">
               <Target className="h-8 w-8 text-primary" />
-              Our Mission
+              مهمتنا
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Our mission is to deliver an exceptionally intuitive and reliable
-              platform that removes friction from the creative process. We are
-              committed to continuous improvement, driven by user feedback and a
-              relentless pursuit of excellence, ensuring our tools evolve with
-              the needs of our community.
+              مهمتنا هي تقديم منصة سهلة الاستخدام وموثوقة بشكل استثنائي تزيل
+              العقبات من العملية الإبداعية. نحن ملتزمون بالتحسين المستمر،
+              مدفوعين بتعليقات المستخدمين وسعي لا هوادة فيه لتحقيق التميز،
+              مما يضمن تطور أدواتنا مع احتياجات مجتمعنا.
             </p>
           </div>
         </div>
@@ -78,47 +76,44 @@ export default function AboutPage() {
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold font-headline flex items-center justify-center gap-3">
               <Heart className="h-8 w-8 text-primary" />
-              Our Core Values
+              قيمنا الأساسية
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              These principles are the foundation of our culture and guide every
-              decision we make.
+              هذه المبادئ هي أساس ثقافتنا وتوجه كل قرار نتخذه.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <Card>
               <CardHeader>
                 <Users className="h-8 w-8 text-primary mb-2" />
-                <CardTitle>User-First</CardTitle>
+                <CardTitle>المستخدم أولاً</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Our users are at the heart of everything. We listen, learn,
-                  and build for them.
+                  مستخدمونا في قلب كل شيء. نحن نستمع ونتعلم ونبني من أجلهم.
                 </CardDescription>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
                 <Lightbulb className="h-8 w-8 text-primary mb-2" />
-                <CardTitle>Innovate Boldly</CardTitle>
+                <CardTitle>ابتكر بجرأة</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  We embrace challenges, question the status quo, and are not
-                  afraid to forge new paths.
+                  نحن نتبنى التحديات، ونتساءل عن الوضع الراهن، ولا نخشى شق
+                  طرق جديدة.
                 </CardDescription>
               </CardContent>
             </Card>
             <Card>
               <CardHeader>
                 <Package className="h-8 w-8 text-primary mb-2" />
-                <CardTitle>Deliver Quality</CardTitle>
+                <CardTitle>قدم الجودة</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  We hold ourselves to the highest standards of craftsmanship
-                  and reliability.
+                  نحن نلتزم بأعلى معايير الحرفية والموثوقية.
                 </CardDescription>
               </CardContent>
             </Card>
