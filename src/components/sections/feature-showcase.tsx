@@ -44,7 +44,7 @@ const features = [
 
 export function FeatureShowcase() {
   return (
-    <section id="features" className="py-20 md:py-32 bg-secondary/50">
+    <section id="features" className="py-20 md:py-32">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">

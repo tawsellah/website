@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <div className="bg-secondary/50">
+    <div className="">
       <div className="container py-20 md:py-32">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold font-headline">
