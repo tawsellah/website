@@ -1,4 +1,4 @@
-import { Rocket, Twitter, Github, Linkedin } from "lucide-react";
+import { Rocket } from "lucide-react";
 import Link from "next/link";
 
 export function Footer() {
@@ -55,56 +55,12 @@ export function Footer() {
                 أسطول الشركات
               </Link>
             </div>
-            <div className="flex flex-col gap-3">
-              <h4 className="font-bold">التواصل الاجتماعي</h4>
-              <Link
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                تويتر
-              </Link>
-              <Link
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                فيسبوك
-              </Link>
-              <Link
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                انستغرام
-              </Link>
-            </div>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="mt-8 pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-center gap-4">
           <p className="text-sm text-muted-foreground">
             &copy; {new Date().getFullYear()} توصيلة. جميع الحقوق محفوظة.
           </p>
-          <div className="flex items-center gap-4">
-            <Link
-              href="#"
-              aria-label="Twitter"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Twitter className="h-5 w-5" />
-            </Link>
-            <Link
-              href="#"
-              aria-label="GitHub"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Github className="h-5 w-5" />
-            </Link>
-            <Link
-              href="#"
-              aria-label="LinkedIn"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Linkedin className="h-5 w-5" />
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
