@@ -16,7 +16,7 @@ export function Hero() {
         </p>
         <div className="flex flex-wrap gap-4">
           <Button size="lg" asChild>
-            <Link href="#">
+            <Link href="/Tawseela.apk" download>
               <svg
                 className="ml-2 h-5 w-5"
                 viewBox="0 0 24 24"
