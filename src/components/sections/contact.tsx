@@ -21,10 +21,10 @@ export function Contact() {
           </p>
         </div>
         <div className="grid lg:grid-cols-2 gap-12">
-          <Card className="bg-[#fc46aa]">
+          <Card className="bg-[#fc46aa] text-white">
             <CardHeader>
               <CardTitle>أرسل لنا رسالة</CardTitle>
-              <CardDescription>
+              <CardDescription className="text-white/80">
                 املأ النموذج وسنعاود الاتصال بك في أقرب وقت ممكن.
               </CardDescription>
             </CardHeader>

@@ -5,19 +5,19 @@ import Link from "next/link";
 
 const aboutItems = [
   {
-    icon: <Eye className="h-8 w-8 text-primary" />,
+    icon: <Eye className="h-8 w-8 text-white" />,
     title: "رؤيتنا",
     description:
       "تمكين المبدعين والمبتكرين من خلال توفير أدوات قوية وسهلة الوصول، وتعزيز عالم يمكن أن تزدهر فيه الأفكار العظيمة.",
   },
   {
-    icon: <Target className="h-8 w-8 text-primary" />,
+    icon: <Target className="h-8 w-8 text-white" />,
     title: "مهمتنا",
     description:
       "بناء منصة بديهية وموثوقة وملهمة تبسط التعقيد وتطلق العنان للإمكانات الكاملة لمستخدمينا.",
   },
   {
-    icon: <Heart className="h-8 w-8 text-primary" />,
+    icon: <Heart className="h-8 w-8 text-white" />,
     title: "قيمنا",
     description:
       "نحن نسترشد بالتركيز على المستخدم، وشغف الابتكار، والالتزام بالنزاهة في كل ما نقوم به.",
@@ -41,12 +41,12 @@ export function AboutSummary() {
           {aboutItems.map((item, index) => (
             <Card
               key={index}
-              className="text-center flex flex-col items-center p-6 bg-[#fc46aa]"
+              className="text-center flex flex-col items-center p-6 bg-[#fc46aa] text-white"
             >
               <CardHeader className="p-0 mb-4">{item.icon}</CardHeader>
               <CardContent className="p-0 flex flex-col gap-2">
                 <CardTitle>{item.title}</CardTitle>
-                <p className="text-muted-foreground">{item.description}</p>
+                <p className="text-white/80">{item.description}</p>
               </CardContent>
             </Card>
           ))}

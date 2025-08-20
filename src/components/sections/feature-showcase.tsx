@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const features = [
   {
-    icon: <Zap className="h-8 w-8 text-primary" />,
+    icon: <Zap className="h-8 w-8 text-white" />,
     title: "سرعة فائقة",
     description:
       "استمتع بسرعة واستجابة لا مثيل لهما. تم تحسين تطبيقنا للأداء على أي جهاز.",
@@ -17,7 +17,7 @@ const features = [
     imageHint: "speed dashboard",
   },
   {
-    icon: <BarChart className="h-8 w-8 text-primary" />,
+    icon: <BarChart className="h-8 w-8 text-white" />,
     title: "تحليلات ثاقبة",
     description:
       "احصل على رؤى قيمة من خلال لوحة التحكم التحليلية القوية الخاصة بنا. تتبع تقدمك واتخذ قرارات تستند إلى البيانات.",
@@ -25,7 +25,7 @@ const features = [
     imageHint: "analytics chart",
   },
   {
-    icon: <ShieldCheck className="h-8 w-8 text-primary" />,
+    icon: <ShieldCheck className="h-8 w-8 text-white" />,
     title: "آمن بالتصميم",
     description:
       "بياناتك آمنة معنا. نحن نستخدم أحدث الإجراءات الأمنية لحماية معلوماتك.",
@@ -33,7 +33,7 @@ const features = [
     imageHint: "security shield",
   },
   {
-    icon: <UserCheck className="h-8 w-8 text-primary" />,
+    icon: <UserCheck className="h-8 w-8 text-white" />,
     title: "سهل الاستخدام",
     description:
       "واجهة نظيفة وبديهية تجعل تطبيقنا ممتعًا للاستخدام للجميع، من المبتدئين إلى الخبراء.",
@@ -59,14 +59,14 @@ export function FeatureShowcase() {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-[#fc46aa]"
+              className="overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-[#fc46aa] text-white"
             >
               <CardHeader className="flex flex-row items-center gap-4 p-6">
                 {feature.icon}
                 <CardTitle>{feature.title}</CardTitle>
               </CardHeader>
               <CardContent className="p-6 pt-0">
-                <p className="text-muted-foreground mb-4">
+                <p className="text-white/80 mb-4">
                   {feature.description}
                 </p>
                 <div className="aspect-video relative">
