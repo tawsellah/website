@@ -1,4 +1,10 @@
 import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,21 +16,45 @@ export function Hero() {
           <span className="text-primary">توصيلة</span>، مشوارك يبدأ من هنا.
         </h1>
         <p className="text-lg text-muted-foreground">
-          هل تحتاج إلى توصيلة سريعة وموثوقة؟ تطبيق توصيلة يوصلك إلى وجهتك بأمان وراحة. حمّل التطبيق الآن وابدأ رحلتك الأولى.
+          هل تحتاج إلى توصيلة سريعة وموثوقة؟ تطبيق توصيلة يوصلك إلى وجهتك بأمان
+          وراحة. حمّل التطبيق الآن وابدأ رحلتك الأولى.
         </p>
         <div className="flex flex-wrap gap-4">
-          <Button size="lg" asChild>
-            <Link href="/Tawseela.apk" download>
-              <svg
-                className="ml-2 h-5 w-5"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path d="M3 20.999v-18l15 9-15 9z" />
-              </svg>
-              تحميل التطبيق اندرويد
-            </Link>
-          </Button>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button size="lg">
+                <svg
+                  className="ml-2 h-5 w-5"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M3 20.999v-18l15 9-15 9z" />
+                </svg>
+                تحميل التطبيق اندرويد
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="w-56">
+              <DropdownMenuItem>
+                <Link
+                  href="/Tawseela_customer.apk"
+                  download
+                  className="w-full text-right"
+                >
+                  نسخة العميل
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link
+                  href="/Tawseela_driver.apk"
+                  download
+                  className="w-full text-right"
+                >
+                  نسخة السائق
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
           <Button size="lg" variant="secondary" asChild>
             <Link href="#">
               <svg
