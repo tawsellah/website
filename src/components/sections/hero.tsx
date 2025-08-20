@@ -7,11 +7,11 @@ export function Hero() {
     <section className="container grid lg:grid-cols-2 gap-12 items-center py-20 md:py-32">
       <div className="flex flex-col gap-6 items-start">
         <h1 className="text-4xl md:text-6xl font-bold font-headline leading-tight">
-          أهلاً بك في <span className="text-primary">AppIntro</span>، حيث تنطلق
+          أهلاً بك في <span className="text-primary">توصيلة</span>، حيث تنطلق
           الأفكار.
         </h1>
         <p className="text-lg text-muted-foreground">
-          اكتشف تجربة سلسة مصممة لإحياء رؤيتك. AppIntro هو أكثر من مجرد تطبيق؛
+          اكتشف تجربة سلسة مصممة لإحياء رؤيتك. توصيلة هو أكثر من مجرد تطبيق؛
           إنه شريك في رحلتك الإبداعية.
         </p>
         <div className="flex flex-wrap gap-4">

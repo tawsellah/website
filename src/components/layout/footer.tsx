@@ -12,7 +12,7 @@ export function Footer() {
               className="flex items-center gap-2 font-bold text-xl"
             >
               <Rocket className="h-7 w-7 text-primary" />
-              <span>AppIntro</span>
+              <span>توصيلة</span>
             </Link>
             <p className="text-muted-foreground">
               مستقبل التطبيقات هنا. انضم إلينا في رحلتنا.
@@ -86,7 +86,7 @@ export function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} AppIntro. جميع الحقوق محفوظة.
+            &copy; {new Date().getFullYear()} توصيلة. جميع الحقوق محفوظة.
           </p>
           <div className="flex items-center gap-4">
             <Link

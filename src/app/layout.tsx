@@ -6,7 +6,7 @@ import { Footer } from "@/components/layout/footer";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "AppIntro | أهلاً بك في المستقبل",
+  title: "توصيلة | أهلاً بك في المستقبل",
   description:
     "اكتشف تطبيقنا الثوري. تعرف على رؤيتنا ورسالتنا والميزات الرائعة التي نقدمها.",
 };
