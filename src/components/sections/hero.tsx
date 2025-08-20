@@ -55,7 +55,7 @@ export function Hero() {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Button size="lg" variant="secondary" asChild>
+          <Button size="lg" variant="secondary" disabled>
             <Link href="#">
               <svg
                 className="ml-2 h-5 w-5"
