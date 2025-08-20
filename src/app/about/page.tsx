@@ -39,7 +39,7 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-video">
             <Image
-              src="https://res.cloudinary.com/dorbgzcrz/image/upload/v1755694367/future-landscape_x3n6ex.png"
+              src="https://placehold.co/600x338.png"
               alt="الرؤية"
               fill
               className="rounded-xl shadow-lg object-cover"
@@ -51,7 +51,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-16 items-center mt-24">
           <div className="relative aspect-video order-last md:order-first">
             <Image
-              src="https://res.cloudinary.com/dorbgzcrz/image/upload/v1755694368/team-collaboration_z9j4oe.png"
+              src="https://placehold.co/600x338.png"
               alt="المهمة"
               fill
               className="rounded-xl shadow-lg object-cover"
@@ -83,36 +83,36 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mt-12">
-            <Card>
+            <Card className="bg-[#fc46aa] text-white">
               <CardHeader>
-                <Users className="h-8 w-8 text-primary mb-2" />
+                <Users className="h-8 w-8 text-white mb-2" />
                 <CardTitle>المستخدم أولاً</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-white/80">
                   مستخدمونا في قلب كل شيء. نحن نستمع ونتعلم ونبني من أجلهم.
                 </CardDescription>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="bg-[#fc46aa] text-white">
               <CardHeader>
-                <Lightbulb className="h-8 w-8 text-primary mb-2" />
+                <Lightbulb className="h-8 w-8 text-white mb-2" />
                 <CardTitle>ابتكر بجرأة</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-white/80">
                   نحن نتبنى التحديات، ونتساءل عن الوضع الراهن، ولا نخشى شق
                   طرق جديدة.
                 </CardDescription>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="bg-[#fc46aa] text-white">
               <CardHeader>
-                <Package className="h-8 w-8 text-primary mb-2" />
+                <Package className="h-8 w-8 text-white mb-2" />
                 <CardTitle>قدم الجودة</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-white/80">
                   نحن نلتزم بأعلى معايير الحرفية والموثوقية.
                 </CardDescription>
               </CardContent>
