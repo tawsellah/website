@@ -8,8 +8,8 @@ import { Menu, Rocket } from "lucide-react";
 
 const navLinks = [
   { href: "/#features", label: "الميزات" },
-  { href: "/#about", label: "من نحن" },
-  { href: "/#contact", label: "تواصل معنا" },
+  { href: "/about", label: "من نحن" },
+  { href: "/contact", label: "تواصل معنا" },
 ];
 
 export function Header() {

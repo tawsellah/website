@@ -28,13 +28,13 @@ export function Footer() {
                 الميزات
               </Link>
               <Link
-                href="/#about"
+                href="/about"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 من نحن
               </Link>
               <Link
-                href="/#contact"
+                href="/contact"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 تواصل معنا
