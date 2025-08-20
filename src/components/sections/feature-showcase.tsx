@@ -59,7 +59,7 @@ export function FeatureShowcase() {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+              className="overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-[#fc46aa]"
             >
               <CardHeader className="flex flex-row items-center gap-4 p-6">
                 {feature.icon}

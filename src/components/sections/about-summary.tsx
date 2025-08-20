@@ -41,7 +41,7 @@ export function AboutSummary() {
           {aboutItems.map((item, index) => (
             <Card
               key={index}
-              className="text-center flex flex-col items-center p-6"
+              className="text-center flex flex-col items-center p-6 bg-[#fc46aa]"
             >
               <CardHeader className="p-0 mb-4">{item.icon}</CardHeader>
               <CardContent className="p-0 flex flex-col gap-2">

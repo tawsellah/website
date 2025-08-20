@@ -10,7 +10,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 md:py-32">
+    <section id="contact" className="py-20 md:py-32 bg-white">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">
@@ -21,7 +21,7 @@ export function Contact() {
           </p>
         </div>
         <div className="grid lg:grid-cols-2 gap-12">
-          <Card>
+          <Card className="bg-[#fc46aa]">
             <CardHeader>
               <CardTitle>أرسل لنا رسالة</CardTitle>
               <CardDescription>
