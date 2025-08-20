@@ -43,7 +43,7 @@ export function Hero() {
       </div>
       <div className="relative aspect-square">
         <Image
-          src="https://placehold.co/800x800.png"
+          src="https://firebasestudio.googleapis.com/v0/b/firebase-studio-users.appspot.com/o/user-assets%2F2f4a4f21-7294-4638-a844-48e89f89831c%2Fmarvin-meyer-SYTO3xs06fU-unsplash.jpg?alt=media&token=e3e3b3c3-3765-4f40-8b3d-5527183e8784"
           alt="لقطة شاشة للتطبيق"
           fill
           className="rounded-2xl shadow-2xl object-cover"
