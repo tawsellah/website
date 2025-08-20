@@ -39,7 +39,7 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-video">
             <Image
-              src="https://placehold.co/800x450.png"
+              src="https://res.cloudinary.com/dorbgzcrz/image/upload/v1755694367/future-landscape_x3n6ex.png"
               alt="الرؤية"
               fill
               className="rounded-xl shadow-lg object-cover"
@@ -51,7 +51,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-16 items-center mt-24">
           <div className="relative aspect-video order-last md:order-first">
             <Image
-              src="https://placehold.co/800x450.png"
+              src="https://res.cloudinary.com/dorbgzcrz/image/upload/v1755694368/team-collaboration_z9j4oe.png"
               alt="المهمة"
               fill
               className="rounded-xl shadow-lg object-cover"

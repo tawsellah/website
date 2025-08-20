@@ -13,7 +13,7 @@ const features = [
     title: "سرعة فائقة",
     description:
       "استمتع بسرعة واستجابة لا مثيل لهما. تم تحسين تطبيقنا للأداء على أي جهاز.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://res.cloudinary.com/dorbgzcrz/image/upload/v1755694369/speed-dashboard_x2h5vu.png",
     imageHint: "speed dashboard",
   },
   {
@@ -21,7 +21,7 @@ const features = [
     title: "تحليلات ثاقبة",
     description:
       "احصل على رؤى قيمة من خلال لوحة التحكم التحليلية القوية الخاصة بنا. تتبع تقدمك واتخذ قرارات تستند إلى البيانات.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://res.cloudinary.com/dorbgzcrz/image/upload/v1755694368/analytics-chart_a8z2mf.png",
     imageHint: "analytics chart",
   },
   {
@@ -29,7 +29,7 @@ const features = [
     title: "آمن بالتصميم",
     description:
       "بياناتك آمنة معنا. نحن نستخدم أحدث الإجراءات الأمنية لحماية معلوماتك.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://res.cloudinary.com/dorbgzcrz/image/upload/v1755694369/security-shield_ykvq5f.png",
     imageHint: "security shield",
   },
   {
@@ -37,7 +37,7 @@ const features = [
     title: "سهل الاستخدام",
     description:
       "واجهة نظيفة وبديهية تجعل تطبيقنا ممتعًا للاستخدام للجميع، من المبتدئين إلى الخبراء.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://res.cloudinary.com/dorbgzcrz/image/upload/v1755694369/user-interface_jryrb8.png",
     imageHint: "user interface",
   },
 ];
