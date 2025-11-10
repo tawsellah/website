@@ -30,7 +30,7 @@ export function Hero() {
 
   const handleDownload = (url: string) => {
     if (downloadUrl) {
-      window.location.href = url;
+      window.open(url, '_blank');
     }
   };
 
@@ -69,14 +69,14 @@ export function Hero() {
                 <DropdownMenuContent className="w-56">
                   <AlertDialogTrigger asChild>
                     <DropdownMenuItem
-                      onSelect={() => setDownloadUrl("/Tawseela_customer.apk")}
+                      onSelect={() => setDownloadUrl("https://play.google.com/store/apps/details?id=tawsellah.app&pcampaignid=web_share")}
                     >
                       نسخة العميل
                     </DropdownMenuItem>
                   </AlertDialogTrigger>
                   <AlertDialogTrigger asChild>
                     <DropdownMenuItem
-                      onSelect={() => setDownloadUrl("/Tawseela_driver.apk")}
+                      onSelect={() => setDownloadUrl("https://play.google.com/store/apps/details?id=io.kodular.tawsellah2.driverportal&pcampaignid=web_share")}
                     >
                       نسخة السائق
                     </DropdownMenuItem>
